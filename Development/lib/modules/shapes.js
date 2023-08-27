@@ -1,4 +1,4 @@
-function generateShape(shape, shapeColor, textColor, textContent) {
+function generateShape(shape, shapeColor, logoText, textColor) {
     let svg = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">\n`;
 
     switch (shape) {
@@ -15,10 +15,8 @@ function generateShape(shape, shapeColor, textColor, textContent) {
             throw new Error("Invalid shape");
     }
 
-    svg += `    <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${textContent}</text>\n</svg>`;
-    return svg;
+    svg += `    <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${logoText}</text>\n</svg>`;
+    return svg
 }
 
-module.exports = {
-    generateShape,
-};
+module.exports = generateShape

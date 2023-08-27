@@ -7,6 +7,4 @@ function writeToFile(fileName, data) {
     )
 }
 
-module.exports = {
-    writeToFile,
-}
+module.exports = writeToFile
