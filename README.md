@@ -11,7 +11,8 @@ This is a simple command line application that generates SVG logos based on user
 - Color of the shape
 - 3 letters to display in the logo
 - Color of the letters
-- Based on the user's responses, the application generates an SVG file with the specified name, containing the shape and letters in the chosen colors.
+
+Based on the user's responses, the application generates an SVG file with the specified name, containing the shape and letters in the chosen colors.
 
 For example, if the user chooses:
 
