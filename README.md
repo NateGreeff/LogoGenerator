@@ -11,7 +11,8 @@ This is a simple command line application that generates SVG logos based on user
 - Color of the shape
 - 3 letters to display in the logo
 - Color of the letters
-- Based on the user's responses, the application generates an SVG file with the specified name, containing the shape and letters in the chosen colors.
+
+Based on the user's responses, the application generates an SVG file with the specified name, containing the shape and letters in the chosen colors.
 
 For example, if the user chooses:
 
@@ -20,18 +21,11 @@ For example, if the user chooses:
 - Shape color: red
 - Letters: XYZ
 - Letter color: white
+  
 The application will generate a file called mylogo.svg containing a red circle with the white letters XYZ.
 
 This allows quick creation of simple logos in SVG format, which can then be used on the web, in documents, presentations, etc. The code is written in JavaScript and utilizes the Inquirer module to ask questions, and the Jest module for testing.
 
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 ## Installation
 
 After downloading files make sure to do an npm install to get the required dependencies. You will need node to do so.
