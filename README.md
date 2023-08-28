@@ -24,14 +24,6 @@ The application will generate a file called mylogo.svg containing a red circle w
 
 This allows quick creation of simple logos in SVG format, which can then be used on the web, in documents, presentations, etc. The code is written in JavaScript and utilizes the Inquirer module to ask questions, and the Jest module for testing.
 
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 ## Installation
 
 After downloading files make sure to do an npm install to get the required dependencies. You will need node to do so.
