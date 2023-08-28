@@ -9,7 +9,7 @@ function init() {
     inquirer.prompt(questions).then((response) => {
         let ShapeConstructor = shapes[response.shape];
         let svg = new ShapeConstructor(response.shapeColor, response.logoText, response.textColor).generateSVG()
-        writeFile('logo.svg', svg)
+        writeFile(`${response.fileName}.svg`, svg)
     })
 
 }
