@@ -32,6 +32,8 @@ After downloading files make sure to do an npm install to get the required depen
 
 ## Usage
 
+[Video Walkthrough](https://youtu.be/OCoQXqLCKnY)
+
 I didn't build a filter for allowed characters in the file name so make sure to follow the laws of your OS.
 
 Also if using hex colors, you should include the # symbol.
